@@ -9,8 +9,8 @@ let transporter=nodemailer.createTransport({
 });
 //set up email options
 let mailoptions={
-    from:'bhavanikuriti19@gmaill.com',
-    to:'anushajanaki.g@gmail.com',
+    from:'fromaddressmail',
+    to:'toaddressmail',
     subject:'mail using nodemailer-reg',
     text:'Good afternoon'
 };
